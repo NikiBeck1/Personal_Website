@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="css/style.css">
   <title>Niki Beck</title>
+  <link rel="shortcut icon" href="img/nblogo.png" type="image/x-icon">  
 </head>
 
 <body id="home" data-spy="scroll" data-target="main-nav" >
@@ -160,11 +161,13 @@
   
   
   <!-- BOXES -->
-
   <section id="boxes" class="py-5 mb-5">
     <div class="container">
+      <hr>
+
+      <!-- DEVELOPMENT SKILLS -->
       <div class="row">
-        
+        <p class="lead text-muted text-center mb-4">Development Skills</p>
         <div class="col-md-3">
           <div class="card text-center mb-resp box-border">
             <div class="card-body">
@@ -205,6 +208,52 @@
           </div>
         </div>
       </div>
+      
+
+      <!-- DESIGN SKILLS -->
+
+      <div class="row mt-5 mb-5">
+        <p class="lead text-muted text-center mb-4">Design Skills</p>
+        <div class="col-md-3">
+          <div class="card text-center mb-resp box-border">
+            <div class="card-body">
+              <i class="fas fa-palette fa-3x mb-4"></i>
+              <h5 class="card-title">Illustrator</h5>
+              <p class="card-text">Proficient in creating layouts and designs using Illustrator.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="card text-center box-filled text-white mb-resp">
+            <div class="card-body">
+              <i class="fas fa-camera fa-3x mb-4"></i>
+              <h5 class="card-title">Lightroom</h5>
+              <p class="card-text text-white">Excellent with editing and color correcting new and existing images.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="card text-center box-border mb-resp">
+            <div class="card-body">
+              <i class="fas fa-print fa-3x mb-4"></i>
+              <h5 class="card-title">Photoshop</h5>
+              <p class="card-text">Confident in creating and working with existing photoshop files.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="card text-center box-filled text-white mb-resp">
+            <div class="card-body">
+              <i class="fas fa-video fa-3x mb-4"></i>
+              <h5 class="card-title">Premiere Pro</h5>
+              <p class="card-text text-white">Skilled in creating and editing video components.</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
 
@@ -231,7 +280,7 @@
             <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
               <img src="img/glozzom.png" alt="" class="img-fluid" width="500" height="auto">
               <div class="accordion-body p-5">
-                <strong>This is a multi-site template built using HTML, CSS, and JQuery.</strong> This template uses boostrap 4 and showcases a slick-slider image header, a testimonial slider, and an accordion. To view the project code, <a href="https://github.com/NikiBeck1/Glozom_Template">click here</a> .
+                <strong>This is a multi-site template built using HTML, CSS, and JQuery.</strong> This template uses boostrap 4 and showcases a slick-slider image header, a testimonial slider, and an accordion. To view the project code, <a href="https://github.com/NikiBeck1/Glozom_Template" target="_blank">click here</a> .
               </div>
             </div>
           </div>
@@ -244,7 +293,7 @@
             <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
               <img src="img/blogen.png" alt="" class="img-fluid" width="500" height="auto">
               <div class="accordion-body">
-                <strong>This is a multi-page user interface built using HTML, CSS, and JQuery.</strong> This interface uses boostrap 4 and showcases tables and various components. To view the project code, <a href="https://github.com/NikiBeck1/Blogen_Template">click here</a> .
+                <strong>This is a multi-page user interface built using HTML, CSS, and JQuery.</strong> This interface uses boostrap 4 and showcases tables and various components. To view the project code, <a href="https://github.com/NikiBeck1/Blogen_Template" target="_blank">click here</a> .
               </div>
             </div>
           </div>
@@ -257,11 +306,13 @@
             <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
               <img src="img/looplab.png" alt="" class="img-fluid" width="500" height="auto">
               <div class="accordion-body">
-                <strong>This is a single page template built using HTML, CSS, and bootstrap 4.</strong> This interface is great for simple layout projects. To view the project code, <a href="https://github.com/NikiBeck1/LoopLAB_Bootstrap4">click here</a> .
+                <strong>This is a single page template built using HTML, CSS, and bootstrap 4.</strong> This interface is great for simple layout projects. To view the project code, <a href="https://github.com/NikiBeck1/LoopLAB_Bootstrap4" target="_blank">click here</a> .
               </div>
             </div>
           </div>
         </div>
+
+        <!-- COMPANY LOGOS -->
       </div>
     </div>
   </section>
@@ -406,7 +457,7 @@
           <h3>Get In Touch</h3>
           <p class="lead">I always love to hear about new opportunities and projects. If you're looking for <strong> front-end development, product design, or a general consultation, </strong> don't hesitate to contact me.</p>
 
-          <form action="mailto:niki@wearehamburger.com" method="get" enctype="text/plain">
+          <form action="mailto:niki@wearehamburger.com" method="POST" enctype="multipart/form-data" name="EmailForm">
             <div class="input-group input-group-lg mb-3">
               <input type="text" class="form-control" placeholder="Name">
             </div>
