@@ -95,7 +95,10 @@ body {
     #showcase h1 {
       margin-top: 0 !important;
       padding-top: 0 !important;
-      font-size: 4rem; }
+      font-size: 4rem;
+      letter-spacing: 1px;
+     }
+
     
    #home-icons h5 {
      padding-left: 1rem !important;
