@@ -1,8 +1,9 @@
 body {
-  margin-top: 105px; }
+  margin-top: 105px;
+}
 
 .navbar {
-  box-shadow: 2px 2px 5px #C68A5E;
+  box-shadow: 2px 2px 5px #55C0F9;
   opacity: 0.9;
   background: white; }
   .navbar .nav-item {
@@ -13,34 +14,65 @@ body {
 /* Showcase */
 #showcase {
   position: relative;
-  background-color: #D8DEE1;
+  /* background-color: #D8DEE1; */
   top: 0;
   left: 0;
   background-size: cover;
   min-height: 500px; }
 
   #showcase h1 {
-    color: #C68A5E;
+    color: #f0f;
     font-weight: 700;
     line-height: 3.8rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    margin-bottom: 2rem;
   }
 
-  .showcase-para {
-    color: #C68A5E;
+  #showcase .resume-btn {
+    color: #55C0F9;
+    padding: 1rem;
+    margin: 1rem;
+    box-shadow: 5px 8px 18px rgb(205, 205, 205);
+  }
+
+  #showcase .resume-btn:hover {
+    box-shadow: 5px 8px 18px rgb(142, 142, 142);
+  }
+  #showcase .contact-header-btn:hover {
+    box-shadow: 5px 8px 18px rgb(142, 142, 142);
+  }
+
+  #showcase .contact-header-btn {
+    padding: 1rem;
+    margin: 1rem;
+    background-color: #55C0F9;
+    color: white;
+    border: none !important;
+    box-shadow: 5px 8px 18px rgb(205, 205, 205);
   }
 
 
 /* HOME ICONS / STATEMENT */
 #home-icons h5 {
-  font-size: 40px;
-  font-weight: 400;
+  font-size: 30px;
   padding-left: 10rem;
   padding-right: 10rem;
-  color: #65686a;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  color: #55C0F9;
+  text-decoration: underline;
+  line-height: 3rem;
+  letter-spacing: 0.1rem;
 }
 
 #home-icons i {
-  color: #C68A5E;
+  color:  #f0f;
+}
+
+#home-icons img {
+  width: 3rem;
+  height: auto;
 }
 
 /* NEWSLETTER */
@@ -48,43 +80,160 @@ body {
   background-color: #E7E7E7 !important;
 }
 
-#newsletter i, h3, p {
+#newsletter i, h3 {
   color: #C3BCB0;
 }
 
 /* BOXES */
-#boxes .box-border {
-  border: #C68A5E 2px solid;
-  color: #C68A5E;
+
+#boxes .box-one {
+  color: white;
+  background-color: #c6acd3;
+  border: solid 10px #ff00ff;
 }
 
-#boxes .box-filled {
-  background-color: #C68A5E;
-  color: #E7E7E7;
+#boxes .box-two {
+  color: #ff00ff;
+  background-color: #fff4b6;
+  border: solid 10px #fff830;
 }
 
+#boxes .box-three {
+  color: white;
+  background-color: #c6acd3;
+  border: solid 10px #ff00ff;
+}
 
+#boxes .card {
+  box-shadow: 5px 8px 18px rgb(205, 205, 205);
+}
 
+#contact {
+  background-color: white;
+  color: #55C0F9 !important;
+}
+
+#main-footer i {
+  color: white;
+}
 
 .info-header {
   width: 50%;
   margin: auto;
-  border-bottom: 1px #ddd solid; }
+}
+
+#work {
+  background-color: #55C0F9;
+  min-height: 600px;
+  padding-bottom: 50px !important;
+  color: #ffffff;
+}
 
 #work img {
-  margin-top: -50px; }
-#work .card:hover {
-  background: #C68A5E ;
-  color: white !important; }
+  margin-top: -80px; }
+
+  #work h2 {
+    color: white !important;
+  }
+
+#work .card {
+  margin-top: 30px;
+  background-color: white;
+  color: #55C0F9;
+  
+}
+
+
+  #work .card:hover {
+  border: solid 1px #55C0F9 ;
+  color: #55C0F9 !important; }
   #work .card:hover .fab {
     color: white !important; }
 
 
+#info {
+  background-color: aquamarine;
+}
+
+.tic-tac-toe {
+  border-radius: 5px;
+  color: black;
+  border: solid 5px white;
+  padding: 20px;
+}
 
 
 
+/* TIC TAC TOE */
 
 
+#board {
+  text-align: center;
+  background-color: white;
+  min-height: 900px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.grid > div {
+  height: 100px;
+  width: 100px;
+  float: left;
+  padding-top: -30px;
+  cursor: pointer;
+  font-size: 75px;
+  color: rgb(53, 53, 53);
+  font-family: monospace;
+}
+
+.grid {
+  clear: both;
+  margin: 0 auto;
+  width: 302px;
+}
+
+#board .grid-title {
+    font-family: monospace;
+    color:rgb(53, 53, 53);
+}
+
+.top-left {
+  border-bottom: 1px solid black;
+  border-right: 1px solid black;
+}
+
+.top-middle {
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.top-right {
+  border-bottom: 1px solid black;
+}
+
+.center-left {
+  border-bottom: 1px solid black;
+  border-right: 1px solid black;
+}
+
+.center {
+  border-bottom: 1px solid black;
+  border-right: 1px solid black;
+}
+
+.center-right {
+  border-bottom: 1px solid black;
+}
+
+.bottom-left {
+  border-right: 1px solid black;
+}
+
+.bottom-right {
+  border-left: 1px solid black;
+}
 
 
 
@@ -98,6 +247,13 @@ body {
       font-size: 3rem;
       letter-spacing: 1px;
       line-height: 3rem;
+     }
+
+     #showcase img {
+       padding-left: 40px;
+       padding-right: 40px;
+       margin-top: 50px;
+       margin-bottom: -50px;
      }
 
     
