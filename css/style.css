@@ -110,7 +110,7 @@ body {
 
 #contact {
   background-color: white;
-  color: #55C0F9 !important;
+  color: #1f1f1f !important;
 }
 
 #main-footer i {
@@ -237,6 +237,8 @@ body {
 
 
 
+/* MOBILE */
+
 
 @media (max-width: 768px) {
   #showcase {
@@ -273,6 +275,10 @@ body {
    #board {
     min-height: 500px;
    }
+
+   #contact p {
+    font-size: medium !important;
+  }
   
 
   .mb-resp {
