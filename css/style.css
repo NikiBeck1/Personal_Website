@@ -265,6 +265,14 @@ body {
      letter-spacing: 1px;
      line-height: 2.6rem;
    }
+
+   .type-col {
+     display: none !important;
+   }
+
+   #board {
+    min-height: 500px;
+   }
   
 
   .mb-resp {
